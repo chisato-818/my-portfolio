@@ -1,0 +1,153 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header1 h1 {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+  background-color: rgba(224, 102, 54, 0.835);
+  padding: 8px 0px;
+  color: #fff;
+  letter-spacing: 8px;
+}
+.header2 {
+  height: 50px;
+}
+
+.header2 li {
+  float: left;
+  margin: 20px;
+  list-style: none;
+  color: #303030d0;
+}
+
+.header2 li:hover {
+  color: rgba(224, 102, 54, 0.835);
+  cursor: pointer;
+}
+
+.header2 ul {
+  float: right;
+  margin-right: 40px;
+}
+
+.main {
+  position: relative;
+  height: 520px;
+}
+
+.photo {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 20px solid rgba(224, 102, 54, 0.308);
+}
+
+.footer {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.footer h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: rgba(224, 102, 54, 0.835);
+  margin-bottom: 7px;
+}
+
+.univ img {
+  width: 900px;
+  margin: 250px 270px 0px 270px;
+}
+.bigclab {
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  margin: auto;
+}
+
+.clab {
+  width: 33%;
+  text-align: center;
+  border: 5px solid rgba(224, 102, 54, 0.404);
+  margin: 40px 20px;
+  border-radius: 5px;
+}
+
+.clab h4 {
+  margin-top: 10px;
+  color: rgba(224, 102, 54, 0.787);
+  letter-spacing: 2px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.clab h4:hover {
+  color: rgb(224, 102, 54);
+}
+
+.naiyou {
+  margin: 16px;
+  font-size: 13px;
+  color: #303030d7;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 22px;
+}
+.naiyou2 {
+  margin: 16px;
+  font-size: 13px;
+  color: #303030d7;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 22px;
+}
+.naiyou3 {
+  margin: 16px;
+  font-size: 13px;
+  color: #303030d7;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 22px;
+}
+
+#space {
+  height: 300px;
+  margin: 0px 40px;
+  width: 800px;
+  display: flex;
+}
+
+.reaf1 {
+  float: left;
+}
+
+.reaf2 {
+  margin-left: 750px;
+}
+
+.ikigai img {
+  width: 800px;
+  margin: 0px 300px;
+}
+
+.ikigai {
+  margin-top: 200px;
+}
+
+.tom img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 20px solid rgba(224, 102, 54, 0.308);
+  margin: 70px 400px 300px 300px;
+}
