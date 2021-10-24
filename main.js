@@ -5,7 +5,7 @@ const addButton = document.getElementById("add-button");
 const addButton2 = document.getElementById("add-button-2");
 const addButton3 = document.getElementById("add-button-3");
 
-addButton.onclick = function () {
+addButton.onmouseover = function (number) {
   const naiyou = document.createElement("div");
   naiyou.className = "naiyou";
   naiyou.textContent =
@@ -14,7 +14,7 @@ addButton.onclick = function () {
   cardsContainer.append(naiyou);
 };
 
-addButton2.onclick = function () {
+addButton2.onmouseover = function () {
   const naiyou2 = document.createElement("div");
   naiyou2.className = "naiyou2";
   naiyou2.textContent =
@@ -23,7 +23,7 @@ addButton2.onclick = function () {
   cardsContainer2.append(naiyou2);
 };
 
-addButton3.onclick = function () {
+addButton3.onmouseover = function () {
   const naiyou3 = document.createElement("div");
   naiyou3.className = "naiyou3";
   naiyou3.textContent =

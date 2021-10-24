@@ -3,6 +3,17 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+@keyframes SlideIn {
+  0% {
+    opacity: 0.6;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .header1 h1 {
   text-align: center;
   margin: 40px 0px 0px 0px;
@@ -20,16 +31,44 @@ body {
   margin: 20px;
   list-style: none;
   color: #303030d0;
+  transition: all 1s;
 }
 
 .header2 li:hover {
   color: rgba(224, 102, 54, 0.835);
   cursor: pointer;
+  transform: rotateX(360deg);
 }
 
 .header2 ul {
   float: right;
   margin-right: 40px;
+}
+
+#introbig {
+  display: flex;
+  padding: 0px 200px;
+  padding-top: 200px;
+  height: 300px;
+  width: max-content;
+  background-color: rgba(54, 133, 224, 0.356);
+}
+
+#introbig2 {
+  margin-top: 400px;
+  height: 150px;
+  width: 1000px;
+  background-color: rgba(224, 102, 54, 0.356);
+}
+
+.box {
+  margin: 20px 50px;
+  height: 200px;
+  width: 400px;
+  font-size: 150px;
+  color: rgba(224, 102, 54, 0.835);
+  letter-spacing: 8px;
+  animation: SlideIn 2.6s infinite;
 }
 
 .main {
@@ -55,6 +94,7 @@ body {
 .footer {
   height: 100px;
   margin-top: 30px;
+  margin-bottom: 200px;
 }
 
 .footer h2 {
@@ -64,10 +104,24 @@ body {
   margin-bottom: 7px;
 }
 
+.pazuru {
+  margin-top: 500px;
+  height: 600px;
+  width: 600px;
+}
+
+.peace {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  float: left;
+}
+
 .univ img {
   width: 900px;
-  margin: 250px 270px 0px 270px;
+  margin: 500px 270px 0px 270px;
 }
+
 .bigclab {
   display: flex;
   width: 1000px;
@@ -81,6 +135,7 @@ body {
   border: 5px solid rgba(224, 102, 54, 0.404);
   margin: 40px 20px;
   border-radius: 5px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.212);
 }
 
 .clab h4 {
@@ -103,6 +158,7 @@ body {
   text-align: left;
   line-height: 22px;
 }
+
 .naiyou2 {
   margin: 16px;
   font-size: 13px;
@@ -150,4 +206,9 @@ body {
   height: 300px;
   border: 20px solid rgba(224, 102, 54, 0.308);
   margin: 70px 400px 300px 300px;
+}
+
+#introbig {
+  float: left;
+  margin: auto;
 }
